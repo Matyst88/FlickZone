@@ -1,3 +1,5 @@
 # FlickZone Discord server
 
-Zdravíme, zde najdete náš web který jsme připravili pro server FlickZone.
+**CZ / SK Discord Community**
+
+Náš web pro server FlickZone, kde se bavíme o filmech, seriálech ale také o hudbě.
