@@ -435,12 +435,12 @@ body {
 }
 
 .owner-badge {
-    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    background: linear-gradient(135deg, #da9b53, #da9b53);
     color: var(--darker-bg);
 }
 
 .head-mod-badge {
-    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    background: linear-gradient(135deg, #d26d6d, #d26d6d);
     color: var(--light-text);
 }
 
