@@ -309,7 +309,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const loaderContent = document.createElement('div');
         loaderContent.innerHTML = `
-            <img src="assets/images/flickzone-logo.png" alt="FlickZone" style="height: 100px; animation: pulse 1.5s ease-in-out infinite; filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.5));">
+            <img src="flickzone-logo.png" alt="FlickZone" style="height: 100px; animation: pulse 1.5s ease-in-out infinite; filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.5));">
         `;
         
         loader.appendChild(loaderContent);
