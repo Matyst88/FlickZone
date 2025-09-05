@@ -289,42 +289,6 @@ document.addEventListener('DOMContentLoaded', function() {
         this.style.boxShadow = '0 0 20px rgba(255, 174, 0, 0.3)';
     });
 
-    // Add loading animation
-    window.addEventListener('load', function() {
-        const loader = document.createElement('div');
-        loader.className = 'loader';
-        loader.style.cssText = `
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: #050508;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-            transition: opacity 0.5s ease-out;
-        `;
-        
-        const loaderContent = document.createElement('div');
-        loaderContent.innerHTML = `
-            <img src="flickzone-logo.png" alt="FlickZone" style="height: 100px; animation: pulse 1.5s ease-in-out infinite; filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.5));">
-        `;
-        
-        loader.appendChild(loaderContent);
-        document.body.appendChild(loader);
-        
-        // Add pulse animation
-        const pulseStyle = document.createElement('style');
-        pulseStyle.textContent = `
-            @keyframes pulse {
-                0%, 100% { opacity: 1; transform: scale(1); }
-                50% { opacity: 0.7; transform: scale(1.1); }
-            }
-        `;
-        document.head.appendChild(pulseStyle);
-        
         // Hide loader after a short delay
         setTimeout(() => {
             loader.style.opacity = '0';
@@ -444,5 +408,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     console.log('FlickZone website loaded successfully! 🎬🎵📺🎮');
-});
+;
 
