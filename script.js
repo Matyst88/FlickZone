@@ -58,13 +58,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.querySelector('.navbar');
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
-            navbar.style.background = 'rgba(5, 5, 8, 0.98)';
-            navbar.style.boxShadow = '0 2px 20px rgba(255, 187, 0, 0.3)';
-            navbar.style.borderBottom = '1px solid rgba(255, 187, 0, 0.3)';
+            navbar.style.background = '#0f0f0fbb';
+            navbar.style.boxShadow = '0 2px 20px rgba(0, 140, 255, 0.3)';
+            navbar.style.borderBottom = '1px solid rgba(98, 0, 255, 0.3)';
         } else {
-            navbar.style.background = 'rgba(5, 5, 8, 0.95)';
+            navbar.style.background = '#0f0f0fbb';
             navbar.style.boxShadow = 'none';
-            navbar.style.borderBottom = '1px solid rgba(255, 187, 0, 0.2)';
+            navbar.style.borderBottom = '1px solid rgba(83, 166, 243, 0.2)';
         }
     });
 
@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function() {
         right: 30px;
         width: 50px;
         height: 50px;
-        background: linear-gradient(135deg, #ffc400ff 0%, #ed9f3aff 100%);
+        background: linear-gradient(135deg, #0084ffff 0%, #ab3aedff 100%);
         color: #050508;
         border: none;
         border-radius: 50%;
@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
         visibility: hidden;
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         z-index: 1000;
-        box-shadow: 0 0 20px rgba(255, 196, 0, 0.3);
+        box-shadow: 0 0 20px rgba(0, 102, 255, 0.3);
     `;
     
     document.body.appendChild(scrollToTopBtn);
@@ -281,12 +281,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add hover effect to scroll to top button
     scrollToTopBtn.addEventListener('mouseenter', function() {
         this.style.transform = 'translateY(-3px) scale(1.1)';
-        this.style.boxShadow = '0 8px 30px rgba(255, 196, 0, 0.5)';
+        this.style.boxShadow = '0 8px 30px rgba(0, 140, 255, 0.5)';
     });
     
     scrollToTopBtn.addEventListener('mouseleave', function() {
         this.style.transform = 'translateY(0) scale(1)';
-        this.style.boxShadow = '0 0 20px rgba(255, 174, 0, 0.3)';
+        this.style.boxShadow = '0 0 20px rgba(0, 162, 255, 0.3)';
     });
 
         // Hide loader after a short delay
